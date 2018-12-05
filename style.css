@@ -1,0 +1,45 @@
+body  {
+    background-image: url("images/wallpaper.jpg"); 
+    color: #ffffff;
+    border: 5px solid rgb(120,120,120);
+    height:50%;
+    font-family: lato; 
+    font-family: roboto mono; 
+}
+.title{
+    text-align: center;
+    border: 5px dotted rgb(60,60,60);
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(43, 16, 16);
+    color: red; 
+    font-family: courier; 
+}
+.images{
+    padding: 10px;
+    margin: 5px;
+    position: center; 
+    border: 2px dotted rgb(120,120,120);
+}
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+}
+/*
+.conor{
+    
+}    
+.eberhard{
+    border: 2px dotted seagreen;
+    background-color: rgb()
+}
+.background{
+
+}
+.toni-way{
+    text-align: center; 
+}
+*/
