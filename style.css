@@ -1,11 +1,4 @@
-body  {
-    background-image: url("images/wallpaper.jpg"); 
-    color: #ffffff;
-    border: 5px solid rgb(120,120,120);
-    height:50%;
-    font-family: lato; 
-    font-family: roboto mono; 
-}
+
 .title{
     text-align: center;
     border: 5px dotted rgb(60,60,60);
@@ -16,10 +9,10 @@ body  {
     font-family: courier; 
 }
 .images{
-    padding: 10px;
-    margin: 5px;
-    position: center; 
-    border: 2px dotted rgb(120,120,120);
+    padding: 30px;
+    margin: 10px;
+    position: center,right; 
+    border: 15px dotted rgb(120,120,120);
 }
 nav {
     -webkit-flex: 1;
@@ -28,18 +21,70 @@ nav {
     background: #ccc;
     padding: 20px;
 }
-/*
-.conor{
-    
-}    
-.eberhard{
-    border: 2px dotted seagreen;
-    background-color: rgb()
+body {
+    background-image: url(images/background.png);
+    background-position: 100%;
+    background-repeat: repeat;
+    position: absolute;
 }
-.background{
-
+  }
+  a:hover{
+      background-color: rgb(60,60,60);
+  }
+h1, h2{
+  font-family: fantasy;
+  border-bottom: 1px solid rgb(60,60,60);
+  padding: 3px;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#333333;
+}
+li{
+    float:left;
+}
+li a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:16px;
+    text-decoration:none;
+    color:red;
+}
+li a:hover{
+    background-color:transparent;
+    color:red;
 }
 .toni-way{
-    text-align: center; 
+    background-color:#333333;
+    color:white;
+    padding:15px;
+    margin:5px;
+    border:1px dotted black;
 }
-*/
+.toni-gear{
+    background-color:transparent;
+    color:red;
+    padding:15px;
+    margin:5px;
+    border:1px dotted black;
+}
+.toni-route{
+    background-color:#333333;
+    color:white;
+    padding:15px;
+    margin:5px;
+    border:1px dotted black;
+}
+.contact{
+    background-color:transparent;
+    color:red;
+    padding:15px;
+    margin:5px;
+    border:1px dotted black;
+}
+
+
