@@ -86,5 +86,9 @@ li a:hover{
     margin:5px;
     border:1px dotted black;
 }
-
-
+body {
+    font-family: 'abhaya libre';font-size: 18px;
+}
+h2{
+    font-family: 'alegreya sc';
+}
