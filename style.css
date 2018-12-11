@@ -22,7 +22,7 @@ nav {
     padding: 20px;
 }
 body {
-    background-image: url(images/background.png);
+    background-image: url("images/background.png");
     background-position: 100%;
     background-repeat: repeat;
     position: absolute;
@@ -86,8 +86,9 @@ li a:hover{
     border:1px dotted black;
 }
 body {
-    font-family: 'abhaya libre';font-size: 18px;
+    font-family: "ABHAYA LIBRE";
+    font-size: 18px;
 }
 h2{
-    font-family: 'alegreya sc';
+    font-family: "ALEGREYA SC";
 }
